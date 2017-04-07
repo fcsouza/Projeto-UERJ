@@ -1,0 +1,95 @@
+/*modificado o carousel para caber imagens*/
+.carousel-inner > .item > img {
+    position-relative;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    height: 480px;
+}
+
+.navbar {
+    margin-bottom: auto;
+}
+
+/*fonte do site*/
+body {
+        font-family: 'Roboto', sans-serif;
+      }
+
+.corte{
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+
+/*fonte custom no logo*/
+.logo{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 30px;
+}
+
+/* texto no centro da tabela*/
+.tcentro{
+	text-align: center;
+}
+
+
+/*outra barra de scroll */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+/*parallax */
+.parallax {
+    /* The image usada */
+    background-image: url("img/para1.jpg");
+
+    /* altura da imagem */
+    min-height: 250px; 
+
+    /* efeito */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*parallax */
+.parallax2 {
+    /* The image useda */
+    background-image: url("img/para2.jpg");
+
+    /* altura da imagem */
+    min-height: 250px; 
+
+    /* efeito */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*h1 modificado para texto no centro da img */
+.centrop{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    line-height:300px;
+    color: black;
+}
+
+.cor{
+    background-color: black;
+}

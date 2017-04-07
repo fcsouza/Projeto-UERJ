@@ -4,6 +4,7 @@
   <title>Projeto Final</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="projeto.css">
@@ -11,6 +12,10 @@
   <link href="https://fonts.googleapis.com/css?family=Orbitron:900" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.20/css/uikit.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.20/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.20/js/uikit-icons.min.js"></script>
   
   <!--Scroll suave-->
   <script type="text/javascript">
@@ -149,8 +154,6 @@
  <!--Primeiro Conteudo-->
  <div class="container text-center">
   <br>
-  <br>
-  <br>
     <a id="empresa"></a>
    <h1>Hospedagem e Data Centers</h1>
    <p>
@@ -271,16 +274,16 @@
     <a id="negocios"></a>
       <div class="row">
 
-        <div class="col-md-4">
+        <div class="col-md-4" uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay: 250;">
           <h2>Amplie seus negócios mundialmente</h2>
           <p>As melhores práticas e as principais certificações de data center, de gestão e de habilidades técnicas; combinadas a soluções customizadas; garantem a flexibilidade e a confiabilidade de nossos pacotes de serviços.</p>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 250;">
           <img src="img/part.jpg" class="img-circle  center-block" alt="part" width="324" height="256">
        </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 250;">
           <h2>Data Hub - Sua vantagem Global</h2>
           <p>O Data Hub™ permite uma vantagem fundamental para analytics em tempo real, internet das coisas (IoT), coleta e proteção de dados, apoiando o acesso seguro, compliant e eficiente a dados críticos de negócios onde quer que os usuários estejam localizados ao redor do globo.Veja como o Data Hub permite um nível de controle totalmente novo sobre os dados críticos do negócio, com interconectividade direta, segura e de alta velocidade.</p>
         </div>
@@ -333,7 +336,7 @@
                 <textarea class="form-control" rows="6" id="comment" placeholder="O que deseja?"></textarea>
               </div>
             </form>
-              <a class="btn btn-success" href="#">
+              <a class="btn btn-primary" href="#">
               <i class="fa fa-exchange"></i> Enviar</a>
             <!--fim do bloco de contatos-->
           </div>

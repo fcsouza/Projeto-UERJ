@@ -33,10 +33,7 @@ Realização de um site utilizando HTML5, CSS3, Javascript & Bootstrap.
 
 ### :nut_and_bolt: Visualizar Site <a name = "installing"></a>
 
-```
-https://fcsouza.github.io/Projeto-UERJ/
-
-```
+- [Clique para visualizar o site](https://fcsouza.github.io/Projeto-UERJ/)
 
 ## ⛏️ Tecnologias Utilizadas <a name = "built_using"></a>
 
